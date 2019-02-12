@@ -60,9 +60,14 @@ assert.strictEqual(countEven(input), output);
 console.log("Q2 Case 1 Passed");
 // Case 2, n == 0
 input = 0;
-output = 0;
+output = 1;
 assert.strictEqual(countEven(input), output);
 console.log("Q2 Case 2 Passed");
+// Case 2, n is even
+input = 4;
+output = 3;
+assert.strictEqual(countEven(input), output);
+console.log("Q2 Case 3 Passed");
 
 // Question 3
 // determine range of possible values for a
