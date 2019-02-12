@@ -42,7 +42,7 @@ console.log("Q1 Case 1 Passed");
 // Outputs: Integer of number of even numbers in range 0..n
 function countEven(n) {
   let numEven = 0;
-  for (let i = 0; i < n; i++) {
+  for (let i = 0; i <= n; i++) {
     // if i is a multiple of 2, increment numEven
     if (i % 2 == 0) {
       numEven++;
